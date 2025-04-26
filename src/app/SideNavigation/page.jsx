@@ -23,7 +23,7 @@ function Page() {
       {/* Fixed Button */}
       <div className="fixed top-4 left-4 z-20 ">
         {isOpen ? (
-          <button name='sidebar-button' onClick={() => setIsOpen(false)}>
+          <button name='Toggle-Sidebar-button' aria-label="Toggle Sidebar" onClick={() => setIsOpen(false)}>
             <SidebarClose className='text-white'/>
           </button>
         ) : (
