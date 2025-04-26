@@ -14,7 +14,7 @@ function page() {
             <div className='bg-white p-4 rounded-2xl w-full h-full sm:w-[360px] sm:h-[291px]'>
                 <div className='flex items-center justify-between border-b border-gray-200 pb-2.5'>
                     <h3 className='text-xl font-bold '>Pending Questions</h3>
-                    <div className='mr-4 bg-[#2FBDFF] py-0.5 px-1.5 text-sm text-white rounded-md'>02</div>
+                    <div className='mr-4 bg-blue-500 py-0.5 px-1.5 text-sm text-white rounded-md'>02</div>
                 </div>
 
                 <div>
