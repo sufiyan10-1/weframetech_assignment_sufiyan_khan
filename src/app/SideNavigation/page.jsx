@@ -19,12 +19,12 @@ function Page() {
   ];
 
   return (
-    <> 
+    <>
       {/* Fixed Button */}
       <div className="fixed top-4 left-4 z-20 ">
         {isOpen ? (
           <button name='Toggle-Sidebar-button' aria-label="Toggle Sidebar" onClick={() => setIsOpen(false)}>
-            <SidebarClose className='text-white'/>
+            <SidebarClose className='text-white' />
           </button>
         ) : (
           <button onClick={() => setIsOpen(true)}>
@@ -35,16 +35,14 @@ function Page() {
 
       {/* Sidebar */}
       <div className=" z-10">
-        <nav className={`flex flex-col justify-between transition-all duration-300 h-full bg-cyan-900 text-white ${
-          isOpen ? 'w-60 p-4' : 'w-0 overflow-hidden'
-        }`}>
+        <nav className={`flex flex-col justify-between transition-all duration-300 h-full bg-cyan-900 text-white ${isOpen ? 'w-60 p-4' : 'w-0 overflow-hidden'
+          }`}>
           <ul className="mt-20">
             {menuItems.map((item, index) => (
               <li
                 key={index}
-                className={`px-3 py-2 rounded-lg cursor-pointer hover:bg-gray-500 ${
-                  item === 'Home' ? 'bg-gray-500 text-white' : 'text-white'
-                } flex justify-between items-center`}
+                className={`px-3 py-2 rounded-lg cursor-pointer hover:bg-gray-500 ${item === 'Home' ? 'bg-gray-500 text-white' : 'text-white'
+                  } flex justify-between items-center`}
               >
                 {item}
                 {item === 'Pending Questions' && (
@@ -57,7 +55,7 @@ function Page() {
           </ul>
           <button name="logout" className='text-gray-300 text-left '>Logout</button>
         </nav>
-      
+
       </div>
     </>
   )
