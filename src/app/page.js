@@ -1,4 +1,4 @@
-import SideNavigation from "./sideNavigation/page";
+import SideNavigation from "./SideNavigation/page";
 import HeaderNavigation from "./HeaderNavigation/page";
 import TopSection from "./MainSection/TopSection/page";
 import BottomSection from "./MainSection/BottomSection/page";
