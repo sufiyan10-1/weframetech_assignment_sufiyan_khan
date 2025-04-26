@@ -189,7 +189,7 @@ const prospectLeads = [
 
        <div className='flex flex-col gap-5'>
        {/* Key Insights & Feedback*/}
-      <div className='bg-white p-4 rounded-2xl w-full h-full sm:w-[386px] sm:h-[284px] border border-gray-200'>
+      <div className='bg-white p-4 rounded-2xl w-full h-full   border border-gray-200'>
         <h3 className='text-xl font-bold mt-2 mb-2'>Key Insights & Feedback</h3>  
         <div className='flex items-center justify-between border-b border-gray-300 py-4'>
             <p className='flex flex-col'><span className='text-3xl font-bold'>10%</span><span className='text-[#475467]'>Sales Growth </span></p>
@@ -214,7 +214,7 @@ const prospectLeads = [
       </div>
       
       {/* Prospect Leads*/}
-      <div className='bg-white p-4 rounded-2xl w-full h-full sm:w-[386px] sm:h-[284px] border border-gray-200'>
+      <div className='bg-white p-4 rounded-2xl w-full h-full   border border-gray-200'>
         <h3 className='text-xl font-bold mt-2  '>Prospect Leads</h3>  
          <div>
          <ul className="space-y-3 mt-4">

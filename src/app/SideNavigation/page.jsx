@@ -23,7 +23,7 @@ function Page() {
       {/* Fixed Button */}
       <div className="fixed top-4 left-4 z-20 ">
         {isOpen ? (
-          <button onClick={() => setIsOpen(false)}>
+          <button name='sidebar-button' onClick={() => setIsOpen(false)}>
             <SidebarClose className='text-white'/>
           </button>
         ) : (
@@ -35,15 +35,15 @@ function Page() {
 
       {/* Sidebar */}
       <div className=" z-10">
-        <nav className={`flex flex-col justify-between transition-all duration-300 h-full bg-[#11455D] text-white ${
+        <nav className={`flex flex-col justify-between transition-all duration-300 h-full bg-cyan-900 text-white ${
           isOpen ? 'w-60 p-4' : 'w-0 overflow-hidden'
         }`}>
           <ul className="mt-20">
             {menuItems.map((item, index) => (
               <li
                 key={index}
-                className={`px-3 py-2 rounded-lg cursor-pointer hover:bg-white/25 ${
-                  item === 'Home' ? 'bg-white/10 text-blue-300' : 'text-gray-300'
+                className={`px-3 py-2 rounded-lg cursor-pointer hover:bg-gray-500 ${
+                  item === 'Home' ? 'bg-gray-400 text-blue-300' : 'text-gray-300'
                 } flex justify-between items-center`}
               >
                 {item}
@@ -55,7 +55,7 @@ function Page() {
               </li>
             ))}
           </ul>
-          <button className='text-gray-300 text-left '>Logout</button>
+          <button name="logout" className='text-gray-300 text-left '>Logout</button>
         </nav>
       
       </div>
