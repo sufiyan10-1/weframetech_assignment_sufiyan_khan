@@ -200,7 +200,7 @@ const prospectLeads = [
                  width={38}
                  alt='key_insights_logo'
                />
-               <p className='text-[#279DD4] text-sm bg-[#D5F2FF80] border rounded-2xl px-1'>Top Performer</p>  
+               <p className='text-blue-500 text-sm bg-gray-100 border rounded-2xl px-1'>Top Performer</p>  
             </div> 
 
         </div>
