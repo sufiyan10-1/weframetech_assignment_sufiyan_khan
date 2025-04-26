@@ -43,7 +43,7 @@ function Page() {
               <li
                 key={index}
                 className={`px-3 py-2 rounded-lg cursor-pointer hover:bg-gray-500 ${
-                  item === 'Home' ? 'bg-gray-400 text-blue-300' : 'text-gray-300'
+                  item === 'Home' ? 'bg-gray-500 text-white' : 'text-white'
                 } flex justify-between items-center`}
               >
                 {item}
