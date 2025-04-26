@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🚀 Features
 
-## Getting Started
+🎯 Account progress tracking with animated charts
+👥 Total franchisees onboard monitoring
+💰 Financial wellbeing insights
+📊 Key insights and feedback visualization
+📱 Fully mobile-responsive and modern UI
+🎨 Clean white theme design for clarity and elegance
 
-First, run the development server:
+## 🛠️ Tech Stack
+Next.js – framework for production
+Tailwind CSS – Utility-first CSS framework
+Chart.js – Data visualization
+Lucide Icons – Beautiful icons for modern UI
 
-```bash
+## 📂 Project Structure
+markdown
+Copy
+Edit
+/components
+  - DoughnutChart.jsx
+  - FranchiseeCard.jsx
+  - FinancialWellbeingCard.jsx
+  - KeyInsightsCard.jsx
+/pages
+  - index.tsx
+/public
+  - avatars/
+  - images/
+/styles
+  - globals.css
+
+## 🛠️ Installation & Setup
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/redmi-dashboard.git
+Navigate into the project directory
+
+bash
+Copy
+Edit
+cd redmi-dashboard
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Run the development server
+
+bash
+Copy
+Edit
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 in your browser to see the dashboard!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+ 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ .
 
-## Learn More
+📞 Contact
+For any queries, feel free to reach out:
+Email: sufiyankhan842101@gmail.com
+LinkedIn: https://www.linkedin.com/in/sufiyan-khan-47486524a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
